@@ -1,13 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-
+import {ContextProvider} from "./Context"
 import App from './App';
 
 render((
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
+    <ContextProvider>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </ContextProvider>
 ), document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
