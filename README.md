@@ -16,7 +16,7 @@ npm start
 ```
 
 
-La app realizará una solicitud GET mediante fetch a la ruta localhost:5000/diasferiados/ renderizando los datos recibidos. Se puede visualizar el detalle de cada feriado a travez del enlace de los títulos de cada uno.
+La app realizará una solicitud GET mediante fetch a la ruta localhost:5000/diasferiados/ renderizando los datos recibidos. Se puede visualizar el detalle de cada feriado a traves del enlace de los títulos de cada uno.
 
 Posee la funcionalidad de Login y Logout de un usuario administrador de credenciales usuario: admin contraseña: 1234admin.
 
